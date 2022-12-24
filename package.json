@@ -1,0 +1,26 @@
+{
+  "name": "sonosvolumemonitor",
+  "version": "1.0.0",
+  "description": "A simple server + front end for monitoring and displaying the volume of a sonos system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drldcsta/SonosVolumeMonitor.git"
+  },
+  "author": "Darrell S. DeCosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drldcsta/SonosVolumeMonitor/issues"
+  },
+  "homepage": "https://github.com/drldcsta/SonosVolumeMonitor#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "sonos": "^1.14.1"
+  }
+}
